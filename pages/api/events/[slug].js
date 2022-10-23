@@ -1,6 +1,5 @@
 /* eslint-disable import/no-anonymous-default-export */
 
-/*
 const { events } = require("./data.json");
 
 export default (req, res) => {
@@ -13,4 +12,3 @@ export default (req, res) => {
     res.status(405).json({ message: `Method ${req.method} is not allowed` });
   }
 };
-*/

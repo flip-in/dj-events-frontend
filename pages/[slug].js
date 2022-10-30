@@ -4,7 +4,7 @@ import { FaPencilAlt, FaTimes } from "react-icons/fa";
 import Layout from "@/components/Layout";
 import { API_URL } from "@/config/index";
 import styles from "@/styles/Event.module.css";
-import events from "../api/events";
+import events from "./api/events";
 
 export default function EventPage({ evt = {} }) {
   const deleteEvent = () => {};
